@@ -30,8 +30,8 @@ export default class Exam {
 
     this.questions = images;
     this.answers = answers;
-    this.duration = examDuration * 3;
-    this.joinTime = joinTime * 3;
+    this.duration = examDuration * 18;
+    this.joinTime = joinTime * 15;
     this.examStatus = "waiting-for-participants";
     this.participants.push(socket.id);
     this.initialDuration = examDuration * 60;
